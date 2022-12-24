@@ -6,58 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adriel Camacho</title>
     <link rel="stylesheet" href="style.css" />
-      <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/d6cbf412fd.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <ul>
+        <img src="img/ico.jpg" alt="">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Trabajos</a></li>
       </ul>
     </header>
 
     <main>
-      <section>
-        <article class="dni">
-          <div>
-            <p>Adriel Camacho</p>
-            <p>Front-end Developer</p>
-        </div>
-            <div class="icons">
-              <p>Redes sociales:</p>
-                <a href="https://github.com/BudHamud"><i class="fa-brands fa-github"></i></a>
-                <a href="https://twitter.com/AdrielCamacho"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/adrielcamacho/"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </article>
-      </section>
-      <section class="works">
-        <h2>Mis Trabajos</h2>
-        <article>
-          <a href="https://nftnt.netlify.app/"><div>
-            <img src="nftnta.jpg" alt="" />
-            <h4>NFTn't</h4>
-          </div></a>
-          <a href="https://rps-bud.netlify.app/"><div>
-            <img src="rps.jpg" alt="" />
-            <h4>RPS Game</h4>
-          </div></a>
-          <a href="https://budhamud.github.io/movieClub/"><div>
-            <img src="movie.jpg" alt="" />
-            <h4>MovieClub</h4>
-          </div></a>
-          <a href="https://budhamud.github.io/Landing-Page/"><div>
-            <img src="brown.jpg" alt="" />
-            <h4>Brownlog</h4>
-          </div></a>
-          <div>
-            <a href="https://quizgame-six.vercel.app/"><img src="quiz.jpg" alt="img">
-            <h4>QuizGame</h4></a>
-          </div>
-        </article>
-      </section>
+      <div class="card">
+        <img src="img/brown.jpg" alt="">
+        <p class="hide">Landing page del curso de "The Odin Project"</p>
+        <button class="info" onclick="show()">+Info</button>
+        <p>Brownlog</p>
+      </div>
+      <div class="card">
+        <img src="img/movie.jpg" alt="">
+        <p class="hide">Buscador de peliculas hecho para el curso de JS de Coderhouse</p>
+        <button class="info" onclick="show()">+Info</button>
+        <p>MovieClub</p>
+      </div>
+      <div class="card">
+        <img src="img/nftnta.jpg" alt="">
+        <p class="hide">Página descriptiva hecha para el curso de Desarrollo Web de Coderhouse</p>
+        <button class="info" onclick="show()">+Info</button>
+        <p>NFTn't</p>
+      </div>
+      <div class="card">
+        <img src="img/akiraEncrypt.jpg" alt="">
+        <img class="badge" src="img/encryptBadge.png" alt="">
+        <p class="hide">Encriptador hecho para el curso de Alura</p>
+        <p class="hide">Insignia conseguido por hacer este proyecto</p>
+        <button class="info" onclick="show()">+Info</button>
+        <p>Akira Encrypt</p>
+      </div>
+
+      <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FTheCoversDuo%2Fvideos%2F1196633607801043%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
     </main>
+
     <script src="script.js"></script>
   </body>
 </html>
