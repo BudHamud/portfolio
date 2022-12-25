@@ -2,52 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/ico.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adriel Camacho</title>
-    <link rel="stylesheet" href="style.css" />
-  <script src="https://kit.fontawesome.com/d6cbf412fd.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <header>
-      <ul>
-        <img src="img/ico.jpg" alt="">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Trabajos</a></li>
-      </ul>
-    </header>
-
-    <main>
-      <div class="card">
-        <img src="img/brown.jpg" alt="">
-        <p class="hide">Landing page del curso de "The Odin Project"</p>
-        <button class="info" onclick="show()">+Info</button>
-        <p>Brownlog</p>
-      </div>
-      <div class="card">
-        <img src="img/movie.jpg" alt="">
-        <p class="hide">Buscador de peliculas hecho para el curso de JS de Coderhouse</p>
-        <button class="info" onclick="show()">+Info</button>
-        <p>MovieClub</p>
-      </div>
-      <div class="card">
-        <img src="img/nftnta.jpg" alt="">
-        <p class="hide">Página descriptiva hecha para el curso de Desarrollo Web de Coderhouse</p>
-        <button class="info" onclick="show()">+Info</button>
-        <p>NFTn't</p>
-      </div>
-      <div class="card">
-        <img src="img/akiraEncrypt.jpg" alt="">
-        <img class="badge" src="img/encryptBadge.png" alt="">
-        <p class="hide">Encriptador hecho para el curso de Alura</p>
-        <p class="hide">Insignia conseguido por hacer este proyecto</p>
-        <button class="info" onclick="show()">+Info</button>
-        <p>Akira Encrypt</p>
-      </div>
-
-      <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FTheCoversDuo%2Fvideos%2F1196633607801043%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-    </main>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
