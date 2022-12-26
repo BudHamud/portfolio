@@ -27,6 +27,13 @@ const CardContainer = () => {
             badgeImg={'projects/eMangasBadge.png'}
             />
 
+            <Card
+            name={'Portfolio'}
+            desc={'Portfolio hecho para Alura con los proyectos de la cursada'}
+            img={'projects/portfolio.jpg'}
+            badgeImg={'projects/portfolioBadge.png'}
+            />
+
             {/*<Card
             name={'Brownlog'}
             desc={'Project for Odin Project'}
