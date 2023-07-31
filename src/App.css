@@ -1,13 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200&display=swap");
+@font-face {
+  font-family: Gotham;
+  src: url(/fonts/GothamMedium.ttf);
+}
+
+@font-face {
+  font-family: GothamB;
+  src: url(/fonts/Gotham-Black.otf);
+}
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Inter Tight", "sans-serif";
+  font-family: 'Gotham', "sans-serif";
   color: #FFF;
   scroll-behavior: smooth;
 }
-header {
+
+main {
+  min-height: 100vh;
+  background-color: #222;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+}
+
+::-webkit-scrollbar {
+  background-color: #222;
+}
+/* header {
   background-color: #211;
   padding: 10px;
 }
@@ -174,4 +195,4 @@ footer {
     width: 50px;
     right: 0%;
   }
-}
+} */

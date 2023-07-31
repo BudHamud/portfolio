@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Argregional",
+    "title": "Argentina Regional",
+    "tech": ["React", "Node", "CSS", "Mongo"],
+    "logo": "https://argregional.com.ar/Inicio/logo.svg",
+    "link": "https://argregional.com.ar/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690830695/portfolio/projects/argregional_fl9tr5.jpg",
+    "info": "El motivo principal de la pagina es ser una pagina.",
+    "devs": ["Adriel Camacho", "Federico Massolo", "Javier Rivarola"],
+    "desc": 2023
+  },
+  {
+    "name": "Cryptomice",
+    "tech": ["React", "Firebase", "CSS"],
+    "logo": "https://cryptomice.vercel.app/CHez.svg",
+    "link": "https://cryptomice.vercel.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/cryptomice_qqqwh2.png",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "Autoshift",
+    "tech": ["React", "Firebase", "CSS"],
+    "logo": "https://www.autoshift.com.ar/assets/icon.ico",
+    "link": "https://www.autoshift.com.ar/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/autoshift_jbdgcm.png",
+    "devs": ["Adriel Camacho"],
+    "desc": 2022
+  },
+  {
+    "name": "Beitsefer",
+    "tech": ["React", "Node", "CSS", "Mongo"],
+    "logo": "https://www.beitsefer.com.ar/logo.svg",
+    "link": "https://www.beitsefer.com.ar/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829980/portfolio/projects/beitsefer_y3iycw.png",
+    "devs": ["Adriel Camacho"],
+    "info": "Pagina dirigida a principiantes del hebreo.",
+    "desc": 2023
+  },
+  {
+    "name": "eMangas",
+    "tech": ["React", "Firebase", "CSS"],
+    "logo": "https://e-mangas.vercel.app/logo3.png",
+    "link": "https://e-mangas.vercel.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/eMangas_zts7r7.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2022
+  },
+  {
+    "name": "Gundam Shop",
+    "tech": ["React", "Node", "Mongo"],
+    "logo": "https://e-mangas.vercel.app/logo3.png",
+    "link": "https://e-mangas.vercel.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690831124/portfolio/projects/gundamshop_jzsevz.jpg",
+    "devs": ["Adriel Camacho", "Federico Massolo"],
+    "desc": 2023
+  },
+  {
+    "name": "Tic Tac Toe",
+    "tech": ["React", "TS"],
+    "logo": "/icon.png",
+    "link": "https://tactautoi.vercel.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690833625/portfolio/projects/tictactoe_ste2vh.png",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "eBuks",
+    "tech": ["React", "TS"],
+    "logo": "/icon.png",
+    "link": "https://ebuks.vercel.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835966/portfolio/projects/eBuks_f9m2c1.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "Diablo Builds",
+    "tech": ["HTML", "CSS", "JS"],
+    "logo": "/icon.png",
+    "link": "https://tech-tribe-pals.github.io/DiabloImmortalBuilds/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835917/portfolio/projects/diabloImmortal_x6qrgt.jpg",
+    "devs": ["Adriel Camacho", "Federico Massolo", "Javier Rivarola"],
+    "desc": 2023
+  },
+  {
+    "name": "Honu Talent",
+    "tech": ["HTML", "CSS", "JS"],
+    "logo": "https://honutalent.com/img/favicon.png",
+    "link": "https://honutalent.com/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835952/portfolio/projects/honu_ft5yd4.jpg",
+    "devs": ["Adriel Camacho", "Federico Massolo", "Javier Rivarola"],
+    "desc": 2023
+  },
+  {
+    "name": "Tadoki's Portfolio",
+    "tech": ["React", "JS"],
+    "logo": "https://tadokinaan.vercel.app/icon.png",
+    "link": "https://tadokinaan.vercel.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836021/portfolio/projects/tadoki_thtwir.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "Guts Game",
+    "tech": ["HTML", "CSS", "JS"],
+    "logo": "https://budhamud.github.io/gutsGame/img/bersico.ico",
+    "link": "https://budhamud.github.io/gutsGame/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835967/portfolio/projects/berserk_ogouyo.png",
+    "devs": ["Adriel Camacho"],
+    "desc": 2022
+  },
+  {
+    "name": "NFTn't",
+    "tech": ["HTML", "CSS"],
+    "logo": "https://nftnt.netlify.app/images/logo.png",
+    "link": "https://nftnt.netlify.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836211/portfolio/projects/nftnta_ikvnqj.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "Akira Encrypt",
+    "tech": ["HTML", "CSS", "JS"],
+    "logo": "https://budhamud.github.io/akiraEncrypt/img/logov2.png",
+    "link": "https://budhamud.github.io/akiraEncrypt/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829931/portfolio/projects/akiraEncrypt_k7vxdh.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "Movie Club",
+    "tech": ["HTML", "CSS", "JS"],
+    "logo": "https://budhamud.github.io/movieClub/img/ico.png",
+    "link": "https://budhamud.github.io/movieClub/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836210/portfolio/projects/movie_ybnybd.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "RPS Game",
+    "tech": ["HTML", "CSS", "JS"],
+    "logo": "/icon.png",
+    "link": "https://ebuks.vercel.app/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836210/portfolio/projects/rps_xxtpzq.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  },
+  {
+    "name": "Brownlog",
+    "tech": ["HTML", "CSS", "JS"],
+    "logo": "/icon.png",
+    "link": "https://budhamud.github.io/brownlog/",
+    "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/brown_bea2n3.jpg",
+    "devs": ["Adriel Camacho"],
+    "desc": 2023
+  }
+]

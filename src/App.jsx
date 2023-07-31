@@ -1,25 +1,25 @@
-import './App.css'
-import CardContainer from './components/CardContainer'
-import Header from './components/Header'
-import AboutMe from './components/AboutMe'
-import Footer from './components/Footer'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import "./App.css";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
+import Project from "./pages/Project";
+import Profile from "./pages/Profile";
+import Header from "./components/Header";
 
-function App() {
+const App = () => {
 
   return (
-    <>
+    <BrowserRouter>
     <Header />
-    <main>
-    <AboutMe />
-    <Skills />
-    <CardContainer />
-    <Contact />
-    </main>
-    <Footer />
-    </>
+    <Routes>
+    <Route path="/" element={ <Home /> } />
+    <Route path="/projects" element={ <Projects /> } />
+    <Route path="/projects/:title" element={ <Project /> } />
+    <Route path="/profile/:name" element={ <Profile /> } />
+    </Routes>
+    </BrowserRouter>
   )
+
 }
 
 export default App
