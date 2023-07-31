@@ -6,8 +6,8 @@ const CardProject = ({ item, num }) => {
   return (
     <div
       className="cardProject"
-      onMouseEnter={() => setHover(!isHover)}
-      onMouseLeave={() => setHover(!isHover)}
+      onMouseEnter={() => setHover(true)}
+      onMouseLeave={() => setHover(false)}
     >
       <p>
         {isHover ? (

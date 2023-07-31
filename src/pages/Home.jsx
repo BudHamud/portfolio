@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import CardProject from "../components/CardProject";
 import CubeCard from "../components/CubeCard";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 export const Main = styled.main`
@@ -151,8 +151,6 @@ const Home = () => {
     setProjects(fetched)
   }
 
-  const navigate = useNavigate()
-
   useEffect(() => {
     fetchData()
   }, [])
@@ -173,7 +171,7 @@ const Home = () => {
   ];
 
   const shuffle = () => {
-    const randomNum = Math.floor(Math.random()*(projects.length - 1))
+    const randomNum = Math.floor(Math.random()*projects.length)
     const randomProject = projects[randomNum]
     window.location.href = randomProject.link
   }
@@ -201,7 +199,7 @@ const Home = () => {
         </article>
         <article className="bestProjects">
           <h3>My best projects</h3>
-          {projects.map((e, i) => (
+          {projects.slice(0, 5).map((e, i) => (
             <CardProject key={i} item={e} num={i + 1} />
           ))}
         </article>
@@ -210,7 +208,7 @@ const Home = () => {
           <Link to={"/projects"}>Show all</Link>
         </div>
         <article className="projects">
-          {projects.map((e, i) => (
+          {projects.slice(0, 5).map((e, i) => (
             <CubeCard item={e} key={i} />
           ))}
         </article>
