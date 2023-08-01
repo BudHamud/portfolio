@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 const Main = styled.main`
   padding-left: 20px;
+  padding: 40px 20px;
   h2 {
     padding-top: 20px;
   }

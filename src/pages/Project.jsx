@@ -51,6 +51,10 @@ const Main = styled.main`
         background-color: #1ed760;
         padding: 10px;
         border-radius: 100%;
+        transition: ease-in-out .2s;
+        &:hover {
+          scale: 1.1;
+        }
         img {
           width: 25px;
         }

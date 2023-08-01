@@ -50,8 +50,8 @@
   {
     "name": "Gundam Shop",
     "tech": ["React", "Node", "Mongo"],
-    "logo": "https://e-mangas.vercel.app/logo3.png",
-    "link": "https://e-mangas.vercel.app/",
+    "logo": "https://main--monumental-crumble-fb751f.netlify.app/logo.svg",
+    "link": "https://main--monumental-crumble-fb751f.netlify.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690831124/portfolio/projects/gundamshop_jzsevz.jpg",
     "devs": ["Adriel Camacho", "Federico Massolo"],
     "desc": 2023
@@ -77,7 +77,7 @@
   {
     "name": "Diablo Builds",
     "tech": ["HTML", "CSS", "JS"],
-    "logo": "/icon.png",
+    "logo": "https://tech-tribe-pals.github.io/DiabloImmortalBuilds/img/header-nav-media/Icono.png",
     "link": "https://tech-tribe-pals.github.io/DiabloImmortalBuilds/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835917/portfolio/projects/diabloImmortal_x6qrgt.jpg",
     "devs": ["Adriel Camacho", "Federico Massolo", "Javier Rivarola"],
@@ -117,7 +117,7 @@
     "link": "https://nftnt.netlify.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836211/portfolio/projects/nftnta_ikvnqj.jpg",
     "devs": ["Adriel Camacho"],
-    "desc": 2023
+    "desc": 2022
   },
   {
     "name": "Akira Encrypt",
@@ -126,7 +126,7 @@
     "link": "https://budhamud.github.io/akiraEncrypt/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829931/portfolio/projects/akiraEncrypt_k7vxdh.jpg",
     "devs": ["Adriel Camacho"],
-    "desc": 2023
+    "desc": 2022
   },
   {
     "name": "Movie Club",
@@ -135,24 +135,24 @@
     "link": "https://budhamud.github.io/movieClub/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836210/portfolio/projects/movie_ybnybd.jpg",
     "devs": ["Adriel Camacho"],
-    "desc": 2023
+    "desc": 2022
   },
   {
     "name": "RPS Game",
     "tech": ["HTML", "CSS", "JS"],
-    "logo": "/icon.png",
-    "link": "https://ebuks.vercel.app/",
+    "logo": "https://rps-bud.netlify.app/img/logorps.png",
+    "link": "https://rps-bud.netlify.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836210/portfolio/projects/rps_xxtpzq.jpg",
     "devs": ["Adriel Camacho"],
-    "desc": 2023
+    "desc": 2022
   },
   {
     "name": "Brownlog",
     "tech": ["HTML", "CSS", "JS"],
-    "logo": "/icon.png",
+    "logo": "https://budhamud.github.io/brownlog/img/browlog.png",
     "link": "https://budhamud.github.io/brownlog/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/brown_bea2n3.jpg",
     "devs": ["Adriel Camacho"],
-    "desc": 2023
+    "desc": 2022
   }
 ]

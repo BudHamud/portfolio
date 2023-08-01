@@ -63,6 +63,8 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
+
     if (current === null) {
       setCurrent(location.pathname);
     }

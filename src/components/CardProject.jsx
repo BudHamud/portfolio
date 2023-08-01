@@ -19,7 +19,7 @@ const CardProject = ({ item, num }) => {
         ) : (
           <span>{num}</span>
         )}
-        {item.name}
+        {item.title ? item.title : item.name}
       </p>
       <div className="tech">
         {item.tech.map((e, i) => (

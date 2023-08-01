@@ -1,10 +1,11 @@
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const CubeStyle = styled.div`
   background-color: #333;
   width: 250px;
-  height: 300px;
+  height: 310px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +29,13 @@ const CubeStyle = styled.div`
     align-items: center;
     border-radius: 100%;
     padding: 5px;
+    transition: ease-in-out .2s;
+    &:hover {
+      scale: 1.1;
+    }
+    &:hover img {
+      animation: deploy 1s forwards;
+    }
     img {
       position: absolute;
       left: 3px;
@@ -41,35 +49,45 @@ const CubeStyle = styled.div`
     width: 220px;
     height: 220px;
     object-fit: cover;
+    border-radius: 5px;
   }
-  p:nth-child(4) {
+  p:nth-child(3) {
+    margin-top: 5px;
+    font-size: 0.8rem;
     color: #fff9;
+    span {
+      color: #fff9;
+    }
   }
 `;
 
-const CubeCard = ({ item, isDev }) => {
+const CubeCard = ({ item, isDev, goHome }) => {
 
   const navigate = useNavigate()
 
   const goTo = () => {
-    if (isDev) {
+    if (goHome) {
+      navigate('/')
+    } else if (isDev) { 
       navigate(`/profile/${item.name.split(' ')[0].toLowerCase()}`)
-    } else { 
+    } else {
       navigate(`/projects/${item.goto ? item.goto : item.name.toLowerCase()}`)
     }
   }
 
   return (
-    <CubeStyle onClick={goTo}>
+    <CubeStyle>
       <a target="_blank" href={item.link}>
-        { isDev ? <img style={{ display: 'flex', left: 6 }} src="/icons/linkedin.svg" /> : <img src="/rocket.svg" /> }
+        { isDev ? <img style={{ display: 'flex', left: 6, animation: 'none' }} src="/icons/linkedin.svg" /> : <img src="/rocket.svg" /> }
       </a>
+      <div className="cardProject" onClick={goTo}>
       <img
         style={isDev ? { borderRadius: 100 } : {}}
         src={item.img ? item.img : "/fox.png"}
       />
-      <p>{item.name}</p>
-      <p>{item.desc}</p>
+      <p>{item.title ? item.title : item.name}</p>
+      <p>{item.desc} {item.devs?.map((e, i) => ( <span key={i}>{e.split(' ')[0]}{i === item.devs.length - 1 ? '' : ', '}</span> ))}</p>
+      </div>
     </CubeStyle>
   );
 };
