@@ -1,11 +1,13 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { Main } from "./Home";
 import CardProject from "../components/CardProject";
 import CubeCard from "../components/CubeCard";
+import { DevContext } from "../context/DevContext";
 
 const Profile = () => {
   const { name } = useParams();
+  const { changeDev } = useContext(DevContext)
 
   const [dev, setDev] = useState([]);
   const [projects, setProjects] = useState([]);
@@ -15,6 +17,7 @@ const Profile = () => {
     if (search) {
       setDev(search);
       fetchData(search);
+      changeDev(search.name)
     }
   };
 

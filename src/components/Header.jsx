@@ -1,6 +1,7 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useLocation, useNavigate } from 'react-router-dom';
 import styled from "styled-components";
+import { DevContext } from '../context/DevContext'
 
 const HeaderStyle = styled.header`
   display: flex;
@@ -40,6 +41,8 @@ const Header = () => {
   const [next, setNext] = useState(null);
   const [current, setCurrent] = useState(null);
   const [isBack, setIsBack] = useState(false);
+
+  const { currentDev } = useContext(DevContext)
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -128,7 +131,7 @@ const Header = () => {
           alt="Next"
         />
       </button>
-      {scrolling && <h3>Adriel Camacho</h3>}
+      {scrolling && <h3>{ currentDev }</h3>}
     </HeaderStyle>
   );
 };

@@ -28,6 +28,15 @@ main {
 ::-webkit-scrollbar {
   background-color: #222;
 }
+
+@keyframes deploy {
+  0% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translateY(-5px) translateX(5px);
+  }
+}
 /* header {
   background-color: #211;
   padding: 10px;

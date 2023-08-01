@@ -18,18 +18,17 @@ const Main = styled.main`
 `;
 
 const Projects = () => {
-
-  const [projects, setProjects] = useState([])
+  const [projects, setProjects] = useState([]);
 
   const fetchData = async () => {
-    const data = await fetch('/projects.json')
-    const fetched = await data.json()
-    setProjects(fetched)
-  }
-
+    const data = await fetch("/projects.json");
+    const fetched = await data.json();
+    setProjects(fetched);
+  };
+  
   useEffect(() => {
-    fetchData()
-  }, [])
+    fetchData();
+  }, []);
 
   return (
     <Main>

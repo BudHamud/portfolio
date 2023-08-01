@@ -2,8 +2,9 @@ import styled from "styled-components";
 import CardProject from "../components/CardProject";
 import CubeCard from "../components/CubeCard";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import BigCard from "../components/BigCard";
+import { DevContext } from "../context/DevContext";
 
 export const Main = styled.main`
   @keyframes deploy {
@@ -17,7 +18,7 @@ export const Main = styled.main`
   .brand {
     height: 40vh;
 
-    background-image: url("/brand.png");
+    background-image: url("https://res.cloudinary.com/dcmic2snw/image/upload/v1690844780/portfolio/profiles/brand_fg9vwp.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,6 +36,23 @@ export const Main = styled.main`
       margin-bottom: 20px;
       margin-left: 20px;
       z-index: 2;
+      .lenguages {
+        display: flex;
+        gap: 5px;
+        .desc {
+          display: none;
+          position: absolute;
+        }
+        &:hover .desc {
+          display: flex;
+        }
+        img {
+          width: 20px;
+          background-color: #FFF;
+          border-radius: 5px;
+          padding: 5px;
+        }
+      }
       h1 {
         margin-top: 10px;
         font-size: 48px;
@@ -113,6 +131,7 @@ export const Main = styled.main`
         padding: 8px 15px;
         &:hover {
           border: solid 1px #fff;
+          cursor: pointer;
         }
       }
       button:nth-child(3) {
@@ -220,18 +239,21 @@ const Home = () => {
     setProjects(fetched);
   };
 
+  const { changeDev } = useContext(DevContext)
+
   const copyEmail = () => {
     if (message === "") {
       navigator.clipboard.writeText("nigitart@gmail.com");
       setMessage("Email copied in clipboard");
       setTimeout(() => {
         setMessage("");
-      }, 2000); 
+      }, 2000);
     }
   };
 
   useEffect(() => {
     fetchData();
+    changeDev('Adriel Camacho')
   }, []);
 
   const devs = [
@@ -239,13 +261,13 @@ const Home = () => {
       name: "Federico Massolo",
       desc: "Front-end, UX/UI",
       link: "https://www.linkedin.com/in/federico-massolo-55a13b238/",
-      img: "/fede.jfif",
+      img: "https://res.cloudinary.com/dcmic2snw/image/upload/v1690844790/portfolio/profiles/fede_t1u8ot.jpg",
     },
     {
       name: "Javier Rivarola",
       desc: "Front-end, QA",
       link: "https://www.linkedin.com/in/javier-ignacio-rivarola/",
-      img: "/javi.png",
+      img: "https://res.cloudinary.com/dcmic2snw/image/upload/v1690844788/portfolio/profiles/javi_zg6qgq.png",
     },
   ];
 
@@ -269,6 +291,16 @@ const Home = () => {
         <div className="blur" />
         <div className="info">
           <p>Fullstack Developer</p>
+          <div className="lenguages">
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" />
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" />
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" />
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" />
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" />
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" />
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/postgresql-colored.svg" />
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/firebase-colored.svg" />
+          </div>
           <h1>Adriel Camacho</h1>
           <p>17 Projects</p>
         </div>

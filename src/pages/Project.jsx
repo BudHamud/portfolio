@@ -41,6 +41,9 @@ const Main = styled.main`
   .body {
     margin-top: 20px;
     margin-left: 20px;
+    .info {
+      padding-right: 20px;
+    }
     .profile {
       display: flex;
       align-items: center;
@@ -51,7 +54,7 @@ const Main = styled.main`
         background-color: #1ed760;
         padding: 10px;
         border-radius: 100%;
-        transition: ease-in-out .2s;
+        transition: ease-in-out 0.2s;
         &:hover {
           scale: 1.1;
         }
@@ -59,20 +62,29 @@ const Main = styled.main`
           width: 25px;
         }
       }
-      button {
+      div {
         display: flex;
-        background-color: transparent;
-        border: none;
+        flex-wrap: wrap;
         gap: 10px;
-        padding: 15px 0;
-        &:hover div {
-          background-color: #fff;
+        p {
+          border: solid 1px #FFF;
+          padding: 5px;
+          border-radius: 5px;
         }
-        div {
-          width: 5px;
-          height: 5px;
-          background-color: #fff5;
-          border-radius: 100%;
+      }
+    }
+  }
+  @media (width < 425px) {
+    .brand {
+      .info {
+        .devs {
+          display: none;
+        }
+        img {
+          width: 50px;
+        }
+        h1 {
+          font-size: 20px;
         }
       }
     }
@@ -80,19 +92,18 @@ const Main = styled.main`
 `;
 
 const Project = () => {
-
   const { title } = useParams();
 
   const [project, setProject] = useState([]);
 
   const fetchData = async () => {
-    const data = await fetch('/projects.json')
-    const fetched = await data.json()
+    const data = await fetch("/projects.json");
+    const fetched = await data.json();
     const search = fetched.find((e) =>
       e.name.toLocaleLowerCase().includes(title)
     );
-    setProject(search)
-  }
+    setProject(search);
+  };
 
   useEffect(() => {
     fetchData();
@@ -125,16 +136,16 @@ const Project = () => {
       </section>
       <section className="body">
         <article className="profile">
-          <a target={'_blank'} href={project.link}>
+          <a target={"_blank"} href={project.link}>
             <img src="/rocket.svg" />
           </a>
-          <button>
-            {[1, 2, 3].map((e, i) => (
-              <div key={i} />
+          <div className="languages">
+            {project.tech?.map((e, i) => (
+              <p key={i}>{e}</p>
             ))}
-          </button>
+          </div>
         </article>
-        <p>{project.info}</p>
+        <p className="info">{project.info}</p>
       </section>
     </Main>
   );

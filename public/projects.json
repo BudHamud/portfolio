@@ -2,17 +2,17 @@
   {
     "name": "Argregional",
     "title": "Argentina Regional",
-    "tech": ["React", "Node", "CSS", "Mongo"],
+    "tech": ["React","Javascript", "Node", "Mongo", "CSS"],
     "logo": "https://argregional.com.ar/Inicio/logo.svg",
     "link": "https://argregional.com.ar/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690830695/portfolio/projects/argregional_fl9tr5.jpg",
-    "info": "El motivo principal de la pagina es ser una pagina.",
+    "info": "Pagina que hicimos para la UNICEN, la universidad del centro de la provincia de BsAs. El objetivo principal de esta página es ser informativa y describir cada region de nuestro país. Pero también cuenta con un blog integrado con Node y Mongo para que se pueda seguir agregando información.",
     "devs": ["Adriel Camacho", "Federico Massolo", "Javier Rivarola"],
     "desc": 2023
   },
   {
     "name": "Cryptomice",
-    "tech": ["React", "Firebase", "CSS"],
+    "tech": ["React", "Javascript", "Firebase", "CSS"],
     "logo": "https://cryptomice.vercel.app/CHez.svg",
     "link": "https://cryptomice.vercel.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/cryptomice_qqqwh2.png",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Autoshift",
-    "tech": ["React", "Firebase", "CSS"],
+    "tech": ["React", "Javascript", "Firebase", "CSS"],
     "logo": "https://www.autoshift.com.ar/assets/icon.ico",
     "link": "https://www.autoshift.com.ar/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/autoshift_jbdgcm.png",
@@ -30,7 +30,7 @@
   },
   {
     "name": "Beitsefer",
-    "tech": ["React", "Node", "CSS", "Mongo"],
+    "tech": ["React", "Javascript", "Node", "Mongo", "CSS"],
     "logo": "https://www.beitsefer.com.ar/logo.svg",
     "link": "https://www.beitsefer.com.ar/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829980/portfolio/projects/beitsefer_y3iycw.png",
@@ -40,7 +40,7 @@
   },
   {
     "name": "eMangas",
-    "tech": ["React", "Firebase", "CSS"],
+    "tech": ["React", "Javascript", "Firebase", "CSS"],
     "logo": "https://e-mangas.vercel.app/logo3.png",
     "link": "https://e-mangas.vercel.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/eMangas_zts7r7.jpg",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Gundam Shop",
-    "tech": ["React", "Node", "Mongo"],
+    "tech": ["React", "Javascript", "Node", "Mongo", "CSS"],
     "logo": "https://main--monumental-crumble-fb751f.netlify.app/logo.svg",
     "link": "https://main--monumental-crumble-fb751f.netlify.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690831124/portfolio/projects/gundamshop_jzsevz.jpg",
@@ -58,7 +58,7 @@
   },
   {
     "name": "Tic Tac Toe",
-    "tech": ["React", "TS"],
+    "tech": ["React", "Typescript"],
     "logo": "/icon.png",
     "link": "https://tactautoi.vercel.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690833625/portfolio/projects/tictactoe_ste2vh.png",
@@ -67,7 +67,7 @@
   },
   {
     "name": "eBuks",
-    "tech": ["React", "TS"],
+    "tech": ["React", "Typescript"],
     "logo": "/icon.png",
     "link": "https://ebuks.vercel.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835966/portfolio/projects/eBuks_f9m2c1.jpg",
@@ -76,7 +76,7 @@
   },
   {
     "name": "Diablo Builds",
-    "tech": ["HTML", "CSS", "JS"],
+    "tech": ["HTML", "Javascript", "SASS"],
     "logo": "https://tech-tribe-pals.github.io/DiabloImmortalBuilds/img/header-nav-media/Icono.png",
     "link": "https://tech-tribe-pals.github.io/DiabloImmortalBuilds/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835917/portfolio/projects/diabloImmortal_x6qrgt.jpg",
@@ -85,7 +85,7 @@
   },
   {
     "name": "Honu Talent",
-    "tech": ["HTML", "CSS", "JS"],
+    "tech": ["HTML", "Javascript", "SASS"],
     "logo": "https://honutalent.com/img/favicon.png",
     "link": "https://honutalent.com/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835952/portfolio/projects/honu_ft5yd4.jpg",
@@ -94,7 +94,7 @@
   },
   {
     "name": "Tadoki's Portfolio",
-    "tech": ["React", "JS"],
+    "tech": ["React", "Javascript", "CSS"],
     "logo": "https://tadokinaan.vercel.app/icon.png",
     "link": "https://tadokinaan.vercel.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836021/portfolio/projects/tadoki_thtwir.jpg",
@@ -103,7 +103,7 @@
   },
   {
     "name": "Guts Game",
-    "tech": ["HTML", "CSS", "JS"],
+    "tech": ["HTML", "Javascript", "CSS"],
     "logo": "https://budhamud.github.io/gutsGame/img/bersico.ico",
     "link": "https://budhamud.github.io/gutsGame/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690835967/portfolio/projects/berserk_ogouyo.png",
@@ -112,7 +112,7 @@
   },
   {
     "name": "NFTn't",
-    "tech": ["HTML", "CSS"],
+    "tech": ["HTML", "SASS"],
     "logo": "https://nftnt.netlify.app/images/logo.png",
     "link": "https://nftnt.netlify.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836211/portfolio/projects/nftnta_ikvnqj.jpg",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Akira Encrypt",
-    "tech": ["HTML", "CSS", "JS"],
+    "tech": ["HTML", "Javascript", "CSS"],
     "logo": "https://budhamud.github.io/akiraEncrypt/img/logov2.png",
     "link": "https://budhamud.github.io/akiraEncrypt/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829931/portfolio/projects/akiraEncrypt_k7vxdh.jpg",
@@ -130,7 +130,7 @@
   },
   {
     "name": "Movie Club",
-    "tech": ["HTML", "CSS", "JS"],
+    "tech": ["HTML", "Javascript", "CSS"],
     "logo": "https://budhamud.github.io/movieClub/img/ico.png",
     "link": "https://budhamud.github.io/movieClub/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836210/portfolio/projects/movie_ybnybd.jpg",
@@ -139,7 +139,7 @@
   },
   {
     "name": "RPS Game",
-    "tech": ["HTML", "CSS", "JS"],
+    "tech": ["HTML", "Javascript", "CSS"],
     "logo": "https://rps-bud.netlify.app/img/logorps.png",
     "link": "https://rps-bud.netlify.app/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690836210/portfolio/projects/rps_xxtpzq.jpg",
@@ -148,7 +148,7 @@
   },
   {
     "name": "Brownlog",
-    "tech": ["HTML", "CSS", "JS"],
+    "tech": ["HTML", "Javascript", "CSS"],
     "logo": "https://budhamud.github.io/brownlog/img/browlog.png",
     "link": "https://budhamud.github.io/brownlog/",
     "img": "https://res.cloudinary.com/dcmic2snw/image/upload/v1690829932/portfolio/projects/brown_bea2n3.jpg",
